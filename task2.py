@@ -22,16 +22,26 @@ Enter a number: 8
 import math
 
 a=input("Enter a number: ")
-a=float(a)
+a=int(a)
 
 b=math.sqrt(a)
-c=a**(1/3)
+b=round(b,4)
+b=int(b)
+b1=b**2
 
-if b!=float(b) and c!=float(c):
+c=a**(1/3)
+c=round(c,4)
+c=int(c)
+c1=c**3
+
+if b1 ==a and c1 ==a:
+    print(a, end=" ")
     print("xx is both a perfect square and a perfect cube")
 
-elif b!=float(b) and c!=float(c):
+elif b1==a and c1!=a:
+    print(a, end=" ")
     print("xx is only a perfect square")
 
-elif b!=float(b) and c==float(c):
+elif b1!=a and c1==a:
+    print(a, end=" ")
     print("xx is only a perfect cube")
