@@ -23,8 +23,8 @@ c=input("Enter a number: ")
 c=float(c)
 
 if a<c<b:
-    print("That is within normal Earth orbit")
+    print("That is within normal Earth orbit.")
 
 else:
-    print("That is not within normal Earth orbit")
+    print("That is not within normal Earth orbit.")
     
