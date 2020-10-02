@@ -16,12 +16,12 @@ Enter a number: -3
 -3 is not a positive integer
 """
 a=input("Enter a number of any type: ")
-a=int(a)
+a=float(a)
 
 if a>0:
     print(a, end=" ")
-    print("xx is a positive integer.")
+    print("is a positive integer.")
 
 elif a<0:
     print(a, end=" ")
-    print("xx is not a positive integer.")
+    print("is not a positive integer.")

@@ -36,12 +36,12 @@ c1=c**3
 
 if b1 ==a and c1 ==a:
     print(a, end=" ")
-    print("xx is both a perfect square and a perfect cube")
+    print("is both a perfect square and a perfect cube")
 
 elif b1==a and c1!=a:
     print(a, end=" ")
-    print("xx is only a perfect square")
+    print("is only a perfect square")
 
 elif b1!=a and c1==a:
     print(a, end=" ")
-    print("xx is only a perfect cube")
+    print("is only a perfect cube")

@@ -26,5 +26,5 @@ if a<c<b:
     print("That is within normal Earth orbit")
 
 else:
-    print("That is not within Earth orbit")
+    print("That is not within normal Earth orbit")
     
